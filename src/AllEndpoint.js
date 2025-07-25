@@ -1,4 +1,4 @@
-const baseUrl = "http://54.226.55.37/api/";
+const baseUrl = "/api/";
 const apiEndpoints = {
   login: `${baseUrl}user/login`,
   signup: `${baseUrl}user/register`,
