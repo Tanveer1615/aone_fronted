@@ -443,7 +443,7 @@ export default function Checkout() {
                     {state?.cartitem?.map((item) => (
                       <li key={item.id} className="flex py-6">
                         <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md  flex justify-center">
-                          <Link to={`/product/${item.productid}`}>
+                          <Link to={`/product/${item.productId}`}>
                             <img
                               src={item.image}
                               alt={item.image}
